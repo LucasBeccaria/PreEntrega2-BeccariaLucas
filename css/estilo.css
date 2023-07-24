@@ -16808,7 +16808,7 @@ a.bg-danger:focus,a.bg-danger:hover,button.bg-danger:focus,button.bg-danger:hove
 }
 
 .bg-light {
-    background-color: #f8f9fa!important
+    background-color: #798087!important
 }
 
 a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover {
@@ -20480,6 +20480,7 @@ a.text-dark:focus,a.text-dark:hover {
         border-color: #dee2e6
     }
 }
+
 /*footer*/
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
     display: block
@@ -21814,12 +21815,6 @@ td,th {
 
 .glyphicon-menu-up:before {
     content: "\e260"
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
 }
 
 :after,:before {
