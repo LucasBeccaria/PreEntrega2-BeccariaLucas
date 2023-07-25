@@ -486,25 +486,25 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .container {
-        max-width:540px
+        max-width:770px
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 770px) {
     .container {
-        max-width:720px
+        max-width:770px
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 770px) {
     .container {
-        max-width:960px
+        max-width:770px
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 770px) {
     .container {
         max-width:1140px
     }
@@ -750,7 +750,7 @@ pre code {
     margin-left: 91.666667%
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .col-sm {
         -ms-flex-preferred-size:0;
         flex-basis: 0;
@@ -2318,7 +2318,7 @@ textarea.form-control {
     width: 100%
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .form-inline label {
         display:-ms-flexbox;
         display: flex;
@@ -3057,7 +3057,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     left: auto
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .dropdown-menu-sm-left {
         right:auto;
         left: 0
@@ -4145,7 +4145,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .navba-expand-sm {
         -ms-flex-flow:row nowrap;
         flex-flow: row nowrap;
@@ -4584,7 +4584,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: 15px
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-deck {
         -ms-flex-flow:row wrap;
         flex-flow: row wrap;
@@ -4616,7 +4616,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: 15px
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-group {
         -ms-flex-flow:row wrap;
         flex-flow: row wrap
@@ -4664,7 +4664,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: .75rem
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-columns {
         -webkit-column-count:3;
         -moz-column-count: 3;
@@ -5001,7 +5001,7 @@ a.badge-dark.focus,a.badge-dark:focus {
     border-radius: .3rem
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .jumbotron {
         padding:4rem 2rem
     }
@@ -5315,7 +5315,7 @@ a.badge-dark.focus,a.badge-dark:focus {
     border-bottom-left-radius: 0
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .list-group-horizontal-sm {
         -ms-flex-direction:row;
         flex-direction: row
@@ -5830,7 +5830,7 @@ a.close.disabled {
     overflow: scroll
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .modal-dialog {
         max-width:500px;
         margin: 1.75rem auto
@@ -6660,7 +6660,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     display: inline-flex!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .d-sm-none {
         display:none!important
     }
@@ -7069,7 +7069,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     align-self: stretch!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .flex-sm-row {
         -ms-flex-direction:row!important;
         flex-direction: row!important
@@ -7769,7 +7769,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     float: none!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .float-sm-left {
         float:left!important
     }
@@ -8351,7 +8351,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     margin-left: auto!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .m-sm-0 {
         margin:0!important
     }
@@ -9833,7 +9833,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     text-align: center!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .text-sm-left {
         text-align:left!important
     }
@@ -10585,7 +10585,7 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .container,.container-sm {
         max-width:540px
     }
@@ -10877,7 +10877,7 @@ pre code {
     margin-left: 91.666667%
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .col-sm {
         -ms-flex-preferred-size:0;
         flex-basis: 0;
@@ -12570,7 +12570,7 @@ textarea.form-control {
     width: 100%
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .form-inline label {
         display:-ms-flexbox;
         display: flex;
@@ -13337,7 +13337,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     left: auto
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .dropdown-menu-sm-left {
         right:auto;
         left: 0
@@ -14441,7 +14441,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .navbar-expand-sm {
         -ms-flex-flow:row nowrap;
         flex-flow: row nowrap;
@@ -14881,7 +14881,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: 15px
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-deck {
         display:-ms-flexbox;
         display: flex;
@@ -14904,7 +14904,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: 15px
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-group {
         display:-ms-flexbox;
         display: flex;
@@ -14954,7 +14954,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     margin-bottom: .75rem
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .card-columns {
         -webkit-column-count:3;
         -moz-column-count: 3;
@@ -15292,7 +15292,7 @@ a.badge-dark.focus,a.badge-dark:focus {
     border-radius: .3rem
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .jumbotron {
         padding:4rem 2rem
     }
@@ -15622,7 +15622,7 @@ a.badge-dark.focus,a.badge-dark:focus {
     border-left-width: 1px
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .list-group-horizontal-sm {
         -ms-flex-direction:row;
         flex-direction: row
@@ -16158,7 +16158,7 @@ a.close.disabled {
     overflow: scroll
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .modal-dialog {
         max-width:500px;
         margin: 1.75rem auto
@@ -16995,7 +16995,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     display: inline-flex!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .d-sm-none {
         display:none!important
     }
@@ -17404,7 +17404,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     align-self: stretch!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .flex-sm-row {
         -ms-flex-direction:row!important;
         flex-direction: row!important
@@ -18104,7 +18104,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     float: none!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .float-sm-left {
         float:left!important
     }
@@ -18696,7 +18696,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     margin-left: auto!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .m-sm-0 {
         margin:0!important
     }
@@ -20190,7 +20190,7 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
     text-align: center!important
 }
 
-@media (min-width: 576px) {
+@media (min-width: 770px) {
     .text-sm-left {
         text-align:left!important
     }
