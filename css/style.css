@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@100;300;400;500;600 & display=swap");
-* {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.2s linear;
-}
+/* Error: Expected expression.
+ *     ,
+ * 151 |                     padding-bottom: ;
+ *     |                                     ^
+ *     '
+ *   scss\style.scss 151:37  root stylesheet */
 
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a     \2577 \a 151 \2502                      padding-bottom: ;\d\a     \2502                                      ^\a     \2575 \a   scss\\style.scss 151:37  root stylesheet";
+}
