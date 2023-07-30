@@ -227,6 +227,29 @@ section {
   display: none;
 }
 
+.home {
+  padding-top: 14rem;
+  background: url(../assets/fondo1.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.home .slides-container .slide {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.home .slides-container .slide .content {
+  flex: 1 1 40rem;
+}
+.home .slides-container .slide .image {
+  flex: 1 1 40rem;
+}
+.home .slides-container .slide .image img {
+  width: 100%;
+}
+
 .footer {
   background: #f3f3f3;
 }

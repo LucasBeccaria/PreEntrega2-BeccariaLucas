@@ -273,6 +273,57 @@ section{
     display: none;
 }
 
+.home{
+    padding-top: 14rem;
+    background: url(../assets/fondo1.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .slides-container{
+
+        .slide{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+            .content{
+                flex: 1 1 40rem;
+            }
+
+            .image{
+                flex: 1 1 40rem;
+
+                img{
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer{
