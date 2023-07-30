@@ -34,6 +34,62 @@ section{
     padding: 3rem 9%;
 }
 
+.heading{
+    background: url(../assets/fondo1.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+
+    h1{
+        color: $black;
+        font-size: 4rem;
+    }
+
+    p{
+        padding-top: 1rem;
+        font-size: 2rem;
+        color: $light-color;
+
+        a{
+            color: $black;
+            padding-right:.5rem ;
+
+            &:hover{
+                color: $green;
+            }
+        }
+    }
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding:1.2rem 0;
+    border-bottom: $border;
+    color: $black;
+
+    span{
+        color:$green;
+        padding-left: .7rem;
+    }
+
+    a{
+        margin-left: auto;
+        color: $light-color;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: $green;
+        }
+    }
+
+}
+
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -273,6 +329,21 @@ section{
     display: none;
 }
 
+@keyframes fadeLeft{
+    0%{
+        transform:translateX(-5rem);
+        opacity:0;
+    }
+}
+
+
+@keyframes fadeup{
+    0%{
+        transform:scale(.5rem);
+        opacity:0;
+    }
+}
+
 .home{
     padding-top: 14rem;
     background: url(../assets/fondo1.webp) no-repeat;
@@ -287,27 +358,211 @@ section{
             align-items: center;
             flex-wrap: wrap;
             gap: 1.5rem;
+            display: none;
+            padding-left: 14rem;
+
+            &.active{
+                display: flex;
+            }
 
             .content{
                 flex: 1 1 40rem;
+                animation:fadeleft .4s linear .4s backwards;
+
+                span{
+                    color: $light-color;
+                    font-size: 2.5rem;
+                }
+
+                h3{
+                    font-size: 6rem;
+                    color: $black;
+                    padding: .5rem 0 ;
+                }
+
             }
 
             .image{
                 flex: 1 1 40rem;
+                margin:3rem 0;
 
                 img{
                     width: 100%;
+                    animation:fadeup .4s linear;
                 }
 
             }
         }
     }
+    #next-slide,
+    #prev-slide{
+        position: absolute;
+        top:57%;
+        transform: translateY(-50%);
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        box-shadow: $box-shadow;
+        text-align: center;
+        background: $white;
+        font-size: 2rem;
+        color: $black;
+        cursor: pointer;
+
+        &:hover{
+            background: $green;
+            color: $white;
+        }
+    }
+
+    #prev-slide{
+        left: 2rem;
+    }
+
+    #next-slide{
+        right: 2rem;
+    }
 }
 
+.banner-container{
+    @include grid(32rem);
 
+    .banner{
+        position: relative;
+        height: 25rem;
+        overflow: hidden;
 
+        &:hover img{
+            transform: scale(1.2);
+        }
 
+        img{
+            height:100%;
+            width: 100%;
+            object-fit: cover;
+        }
 
+        .content{
+            position:absolute;
+            top: 50%; left: 2rem;
+            transform: translateY(-50%);
+
+            span{
+                color: $light-color;
+                font-size: 1.5rem;
+            }
+
+            h3{
+                font-size: 2rem;
+                padding-top: .5rem;
+                color: $black;
+            }
+
+            .btn{
+               padding: .8rem 2.5rem;
+            }
+        }
+    }
+}
+
+.category .box-container{
+    @include grid(16rem);
+    padding: 4rem 0;
+
+    .box{
+        text-align: center;
+
+        img{
+            height: 15rem;
+        }
+
+        h3{
+            font-size: 2rem;
+            margin: 1rem 0;
+            color: $light-color;
+        }
+
+        &:hover h3{
+            color: $green;
+        }
+    }
+}
+
+.productos .box-container{
+    @include grid(25rem);
+
+    .box{
+       position: relative; 
+       background:$light-bg;
+       text-align: center;
+       overflow: hidden;
+
+        &:hover .icons{
+            top: 0;
+
+        }
+
+       .icons{
+        position: absolute;
+        top: -105%;left: 0;
+        height: 30rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(243, 243, 243, .8);
+        gap: 1rem;
+
+            a{
+                font-size: 2rem;
+                height: 5rem;
+                width: 5rem;
+                line-height: 5rem;
+                background:$white;
+                box-shadow: $box-shadow;
+                color: $light-color;
+
+                &:hover{
+                    background: $green;
+                    color: $white;
+                }
+            }
+
+            .image{
+                height: 30rem;
+                width: 100%;
+                overflow:hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .content{
+                padding: 1.5rem;
+
+                h3{
+                    font-size: 2rem;
+                    color: $black;
+                }
+
+                .price{
+                    font-size: 2rem;
+                    color: $black;
+                    padding: 1rem 0;
+                }
+
+                .stars i{
+                    font-size: 1.7rem;
+                    color: $green;
+                }
+            }
+        }
+    }
+}
+    
 
 
 
@@ -404,7 +659,18 @@ section{
     section{
         padding: 3rem 2rem;
     }
-    
+ 
+    .home #next-slide,
+    .home #prev-slide{
+        transform: translateY(0);
+        top:88%;
+    }
+
+    .home #prev-slide{
+        left: auto;
+        right: 8rem;
+    }
+
 }
 
 
@@ -456,5 +722,9 @@ section{
 
     html{
         font-size: 50%;
+    }
+
+    .home .slides-container .slide .content h3{
+        font-size: 5rem ;
     }
 }
